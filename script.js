@@ -1,3 +1,9 @@
+/**
+ * Project: tic-tac-toe
+ * File: script
+ * Author: Jesse Varkul
+ */
+
 const gameBoard = document.getElementById("gameBoard").children;
 let currentPlayer = "x";
 let moves = 0;

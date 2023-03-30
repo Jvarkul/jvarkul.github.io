@@ -1,3 +1,9 @@
+/**
+ * Project: tic-tac-toe
+ * File: styles
+ * Author: Jesse Varkul
+ */
+
 body {
 	font-family: Arial, sans-serif;
 	display: grid;
@@ -6,22 +12,21 @@ body {
 	height: 100vh;
 	margin: 0;
 	background-color: #f0f0f0;
-  }
-  
-  h1 {
-	
+}
+
+h1 {
 	text-align: center;
-  }
-  
-  #gameBoard {
+}
+
+#gameBoard {
 	/* grid-area: b; */
 	display: grid;
 	grid-template-columns: repeat(3, 100px);
 	grid-template-rows: repeat(3, 100px);
 	gap: 5px;
-  }
-  
-  .cell {
+}
+
+.cell {
 	width: 100px;
 	height: 100px;
 	display: flex;
@@ -32,9 +37,9 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 	cursor: pointer;
-  }
-  
-  .cell.x, .cell.o {
+}
+
+.cell.x,
+.cell.o {
 	pointer-events: none;
-  }
-  
+}
